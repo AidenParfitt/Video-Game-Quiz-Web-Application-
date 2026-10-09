@@ -1,0 +1,64 @@
+body {
+  background-color: beige;
+}
+.Correct {
+  background-color: greenyellow;
+}
+.Incorrect {
+  background-color: red;
+}
+th,
+tr {
+  border-style: dotted;
+  border: 3px;
+  border-color: brown;
+  color: whitesmoke;
+}
+
+table {
+  border: 3px;
+  border-style: dotted;
+  background-color: brown;
+}
+.pass {
+  background-color: greenyellow;
+}
+.fail {
+  background-color: red;
+}
+.prev {
+  text-align: center;
+  background-color: gold;
+  margin: auto;
+}
+.next {
+  text-align: center;
+  background-color: gold;
+  margin: auto;
+}
+.done {
+  text-align: center;
+  justify-items: center;
+  background-color: gold;
+  margin: auto;
+}
+
+#Title {
+  background-color: brown;
+  color: white;
+  justify-self: center;
+  width: 25%;
+  text-align: center;
+  height: 20%;
+}
+#theCurrentQuestion {
+  background-color: gold;
+  justify-self: center;
+  width: 25%;
+}
+#Score {
+  justify-self: center;
+}
+#results {
+  justify-content: center;
+}
